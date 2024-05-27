@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.titulo {
+    text-align: center;
+    color: #fff;
+    background-color: blue;
+    margin-bottom: 2%;
+    padding:20px
+}
+
+.personajes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.character {
+    border:2px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: transform 0.3s ease;
+    gap:10px;
+    padding:10px
+}
+
+.character h2 {
+    color: blue;
+    font-size: 1.5em;
+}
+
+.character p {
+    color: black;
+    background-color: aqua;
+    padding:10px;
+    font-weight: 700;
+}
+
+.character:hover {
+    transform: scale(1.1);
+}
